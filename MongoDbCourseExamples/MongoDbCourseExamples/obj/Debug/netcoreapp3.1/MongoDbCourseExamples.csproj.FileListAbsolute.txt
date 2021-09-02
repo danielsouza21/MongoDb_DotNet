@@ -1,0 +1,17 @@
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\MongoDbCourseExamples.exe
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\MongoDbCourseExamples.deps.json
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\MongoDbCourseExamples.runtimeconfig.json
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\MongoDbCourseExamples.runtimeconfig.dev.json
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\MongoDbCourseExamples.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\MongoDbCourseExamples.pdb
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\MongoDB.Bson.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\MongoDB.Driver.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\MongoDB.Driver.Core.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.csprojAssemblyReference.cache
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.AssemblyInfoInputs.cache
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.AssemblyInfo.cs
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.csproj.CoreCompileInputs.cache
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.csproj.CopyComplete
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.pdb
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.genruntimeconfig.cache
