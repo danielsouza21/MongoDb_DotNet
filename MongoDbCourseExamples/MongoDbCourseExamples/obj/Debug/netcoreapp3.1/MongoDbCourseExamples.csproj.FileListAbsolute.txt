@@ -15,3 +15,13 @@ C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\Mo
 C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.dll
 C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.pdb
 C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\obj\Debug\netcoreapp3.1\MongoDbCourseExamples.genruntimeconfig.cache
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\DnsClient.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\MongoDB.Libmongocrypt.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\SharpCompress.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\runtimes\win\native\libzstd.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy32.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\runtimes\win\native\snappy64.dll
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\runtimes\linux\native\libmongocrypt.so
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\runtimes\osx\native\libmongocrypt.dylib
+C:\Users\daniel.souza\source\repos\Others\MongoDbCourse\MongoDbCourseExamples\MongoDbCourseExamples\bin\Debug\netcoreapp3.1\runtimes\win\native\mongocrypt.dll

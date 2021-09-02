@@ -1,54 +1,50 @@
-﻿using System.Threading.Tasks;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 using MongoDB.Bson;
 using MongoDB.Driver;
 
 namespace MongoDbCourseExamples
 {
-    public class MongoDbClient
+    public class MongoDbClient<T>
     {
         private const string MONGODB_CONNECTION_STRING = "mongodb://localhost:27017";
-        private const string DATABASE_NAME = "Biblioteca";
-        private const string COLLECTION_NAME = "Livros";
 
         private readonly IMongoClient MongoClient;
         private readonly IMongoDatabase LibraryDatabase;
-        private readonly IMongoCollection<BsonDocument> BookCollection;
+        private readonly IMongoCollection<T> BookCollection;
 
-        public MongoDbClient()
+        public MongoDbClient(string databaseName, string collectionName)
         {
             MongoClient = new MongoClient(MONGODB_CONNECTION_STRING);
-            LibraryDatabase = MongoClient.GetDatabase(DATABASE_NAME);
-            BookCollection = LibraryDatabase.GetCollection<BsonDocument>(COLLECTION_NAME);
+
+            LibraryDatabase = MongoClient.GetDatabase(databaseName);
+            BookCollection = LibraryDatabase.GetCollection<T>(collectionName);
         }
 
-        public async Task AccessServerAsync()
+        public async Task InsertAsync(T element)
         {
-            var doc = GetBsonDocument();
-            await BookCollection.InsertOneAsync(doc);
-
-            System.Console.WriteLine($"Document Included");
+            await BookCollection.InsertOneAsync(element);
+            Console.WriteLine($"Document Included");
         }
 
-        private BsonDocument GetBsonDocument()
+        public async Task InsertManyAsync(List<T> element)
         {
-            var doc = new BsonDocument
-            {
-                {
-                    "Titulo", "Guerra dos Tronos"
-                }
-            };
+            await BookCollection.InsertManyAsync(element);
+            Console.WriteLine($"Many Documents Included - Count: {element.Count}");
+        }
 
-            doc.Add("Autor", "Dandara");
-            doc.Add("Ano", 1234);
-            doc.Add("Paginas", 856);
+        public async Task<List<T>> GetAllAsync()
+        {
+            var elements = await BookCollection.Find(new BsonDocument()).ToListAsync();
+            return elements;
+        }
 
-            var assuntoArray = new BsonArray();
-            assuntoArray.Add("Fantasia");
-            assuntoArray.Add("Acao");
-
-            doc.Add("Assunto", assuntoArray);
-
-            return doc;
+        public bool CheckIfIsEmptyCollection()
+        {
+            var elements = BookCollection.Find(new BsonDocument()).ToList();
+            return elements.Any();
         }
     }
 }
